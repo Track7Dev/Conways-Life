@@ -129,7 +129,7 @@ class App extends Component {
         <div className='App-wrapper'>
           <CCAApp />
         </div>
-        <footer className='footer'> Copyright 2018 <a href="https://github.com/track7dev">Track Seven Development</a></footer>
+        <footer className='footer'> Copyright 2018 <a target="_blank" href="https://github.com/track7dev">Track Seven Development</a></footer>
       </div>
     );
   }
