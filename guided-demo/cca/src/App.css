@@ -114,6 +114,16 @@
   font-size: 0.7em;  
 }
 
+.footer > a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.7s;
+}
+
+.footer > a:hover{
+  color: #21ffff;
+}
+
 @keyframes lit {
   from { border-bottom: 1px solid rgb(0, 32, 78); }
   to { border-bottom: 1px solid #21ffff; }
