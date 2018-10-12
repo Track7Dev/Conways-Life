@@ -35,7 +35,6 @@ class CCA {
     const inputColors = require('./color_converter/colors');
     let colorAmount = Number(this.parent.state.count) > 0 && Number(this.parent.state.count) < 4 ? 4 : Number(this.parent.state.count);
     if(colorAmount === 0) colorAmount = Math.floor(Math.random() * 20) | 4;
-    console.log(colorAmount);
     for(let i = 0; i < colorAmount; i++) {
       COLORS[i] = inputColors[Math.floor(Math.random() * inputColors.length)];
     }

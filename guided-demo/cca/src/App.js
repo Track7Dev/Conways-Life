@@ -77,11 +77,6 @@ class CCACanvas extends Component {
         <canvas ref="display" id="canvas" width={this.width} height={this.height} />
         <Controls cca={this.cca} canvas={this}/>
       </div>
-      <div className="display-color-list">
-        {this.state.colors.map((color, i) => {
-          return <div key={i}>{JSON.stringify(color)}</div>
-        })}
-      </div>
     </div>
     );
   }
@@ -127,7 +122,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className='App-header'><h1>LAMBDA SCHOOL: CCA</h1></header>
+        <header className='App-header'>
+          <img style={{background:"#411e2f", padding: '0.5rem', borderRadius: 5, border: '1px solid rgba(33, 255, 255, 0.5)', minWidth: '7rem'}} width="15%" src="http://hacktoberfest-2018.herokuapp.com/images/hacktoberfest.png" />
+          <h1>Cellular Automata</h1>
+        </header>
         <div className='App-wrapper'>
           <CCAApp />
         </div>

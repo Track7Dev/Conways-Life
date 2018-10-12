@@ -22,27 +22,32 @@
 }
 
 .App-header {
-  background-color: #222;
-  padding: 0.5% 0;
-  width: 100%;
+  background-color: black;
+  width: calc(100% - 2rem);
   color: white;
   font-size: 0.7em;
   animation: lit 2s infinite alternate-reverse;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 .App-wrapper {
   display: flex;
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0);
+  background: rgb(25, 0, 88);
   justify-content: center;
   align-items: center;
   overflow-y: auto;
   overflow-x: hidden;
   flex-direction: row;
+  background-image: url("https://hacktoberfest.digitalocean.com/assets/computer-1-ac501e54260f53f627b8f2d8f42da0811b868214852dd99a9c095344884f576c.png"),url("https://hacktoberfest.digitalocean.com/assets/computer-2-2cdd15a9fe9ad8dbc2de34fbb395243df58b73863a4ffca6b417ca1a21d06d2f.png"),url("https://hacktoberfest.digitalocean.com/assets/bg-noise-867a64f4a090fcaa19c0c1531b5bf1863feb109a15ac8de23d7f6cf4ff43de10.png");
 }
 
 .cca-wrapper {
-  background: rgb(41, 40, 40);
+  background: rgb(30, 30, 35, 0.9);
   margin: 2%;
   width: 100%;
 }
@@ -104,12 +109,12 @@
 .footer {
   width: 100%;
   background: black;
-  border-top: 1px solid royalblue;
+  border-top: 1px solid #21ffff;
   padding: 1% 0;
   font-size: 0.7em;  
 }
 
 @keyframes lit {
   from { border-bottom: 1px solid rgb(0, 32, 78); }
-  to { border-bottom: 1px solid royalblue; }
+  to { border-bottom: 1px solid #21ffff; }
 }
