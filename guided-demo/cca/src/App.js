@@ -123,7 +123,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className='App-header'>
-          <img style={{background:"#411e2f", padding: '0.5rem', borderRadius: 5, border: '1px solid rgba(33, 255, 255, 0.5)', minWidth: '7rem'}} width="15%" src="http://hacktoberfest-2018.herokuapp.com/images/hacktoberfest.png" />
+          <img style={{background:"#411e2f", padding: '0.5rem', borderRadius: 5, border: '1px solid rgba(33, 255, 255, 0.5)', minWidth: '7rem'}} width="15%" src={"images/hacktoberfest.png"} />
           <h1>Cellular Automata</h1>
         </header>
         <div className='App-wrapper'>
